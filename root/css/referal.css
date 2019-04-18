@@ -1,0 +1,34 @@
+#ak_refer_list_wrapper {
+	margin-top:30px;
+}
+#ak_refer_detail_wrapper {
+	margin-top:30px;
+}
+#ak_refer_update_wrapper {
+	margin-top:30px;
+}
+	
+	
+
+
+.ak_inputfield {
+  width: 50%;  
+  padding: 12px 20px;
+  
+}
+#ak_add_refer_but {
+  width: 20%;
+  height:40px;  
+  margin: 8px;
+  
+}
+#ak_updref_but {
+  width: 20%;
+  height:40px;  
+  margin: 8px;
+}
+	
+#ak_comment {
+	height: 100px;
+	
+}

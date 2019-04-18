@@ -1,0 +1,148 @@
+
+.nlink{
+	color: blue !important; /* link color for author and category */
+}
+.content{
+	margin-top: 20px;
+}
+.product-title{
+	text-align: left;
+	font-size: 36px;
+	margin: 0;
+}
+.author, .author-label{
+	display: inline-block;
+}
+.category, .category-label{
+	display: inline-block;
+}
+.button{
+	background-color: #fa9405;
+	margin: 10px 0;
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	font-size: 24px;
+	border-radius: 10px;
+	transition: all .5s ease;
+}
+.button:hover{
+	background-color: #0397a9;
+}
+.daily-title{
+	font-size: 24px;
+}
+.daily-description{
+	font-style: italic;
+}
+.productsList li{
+	list-style: none;
+	border: 1px solid #000;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 17px;
+}
+.productsList li a{
+	display: inline;
+}
+.item-category{
+	float: right;
+}
+.ProductForm{
+	font-size: 17px;
+	margin: 40px 0;
+}
+.ProductForm label{
+	margin-top: 20px;
+}
+.ProductForm input, textarea, select{
+	width: 100%;
+	min-height: 35px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	border-color: #0397a9; 
+	padding: 5px;
+}
+.form-button{
+	border: none;
+	background-color: #fa9405;
+	font-size: 20px;
+	margin-top: 40px;
+	border-radius: 10px;
+	transition: 0.5s all ease;
+
+}
+.form-button:hover{
+	cursor: pointer;
+	background-color: #0397a9;
+	color: #fff;
+}
+/* ================== Artem's styles ================== */
+
+/* to put content under header */
+.details-product{
+	margin-top: 100px;
+}
+/* For Favorites button */
+/*i use important because somobody use input to style!!!*/
+.button-fav{
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	background-color: rgb(250,148,5) !important;
+	color: #fff !important;
+	padding: 10px 20px !important;
+    border-radius: 10px !important;
+    transition: all .5s ease;
+}
+.button-fav:hover{
+	cursor: pointer !important;
+	background-color: rgb(210,210,210) !important;
+}
+/* For rating system */
+.ratings{
+	width: 100%;
+	font-size: 1em;
+}
+.ratings input[type="radio"]{
+	display: none;
+}
+.ratings i:hover{
+	cursor: pointer;
+	color: rgb(250,148,5);
+}
+
+.ratings input[type="radio"]:checked + label {
+    background-color: rgb(250,148,5);  
+    border-radius: 100%;
+}
+
+.currentRating{
+	width: 100%;
+	border: 1px solid;
+	text-align: center;
+	background-color: rgb(250,148,5);
+}
+.addToRating-button{
+	background-color: rgb(250,148,5) !important;
+	color: #fff !important;
+	transition: all .5s ease;
+}
+.addToRating-button:hover{
+	cursor: pointer !important;
+	background-color: rgb(210,210,210) !important;
+}
+/*========================*/
+.section-content{
+	margin: 120px 0 40px 0;
+}
+.alert{
+	background-color: #C21807;
+	color: #fff;
+	margin-top: 72px;
+}
+.dib{
+	display: inline-block;
+	color: #0000ff ;
+}

@@ -1,0 +1,93 @@
+/*Search by category styles; 
+User and Admin sides*/
+#main_searchCategory, #main_searchResult, #main_searchCategoryAdmin{
+    margin: 0 auto;
+}
+#main_searchCategory h2, #main_searchResult h2, #main_searchCategoryAdmin h2, #main_searchCategoryAdmin h3{
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+}
+#main_searchResult{
+    max-width: 960px;
+}
+#main_searchCategory .category, 
+#main_searchCategoryAdmin .category{
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 175px;
+    /*line-height: 100px;*/
+    padding: 1%;
+    margin-top: 3%;
+
+    font-size: 1.2em;
+    text-align: center;
+
+    background-color: #fff;
+    transition: all 1s ease;
+}
+.category-image-this{
+    margin-top: 1px;
+    max-width: 100%; 
+    height: 125px;
+}
+#main_searchCategory .category a, 
+#main_searchCategoryAdmin .category a{
+    border: 1px solid;
+    padding: 5px 0;
+    background-color: rgb(252, 184, 83);
+}
+.category a{
+    transition: all .5s ease;
+}
+.category a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#main_searchResult .item{
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center;
+    padding: 1%;
+    background-color: #fff;
+    transition: all .5s ease;
+}
+#main_searchResult .item:hover{
+    background-color: rgb(210,210,210);
+    cursor: pointer;
+}
+#main_searchResult .item-info{
+    color: #000;
+}
+#main_searchResult .item-info .bold{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+#main_searchCategoryAdmin a:hover{
+    color: blue;
+}
+.bold{
+    font-weight: 600;
+}
+.searchResult_image{
+    width: auto;
+    margin: 0 auto;
+    border-left: 1px solid;
+    height: 100px;
+}
+.searchResult_image img{
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+
+
+/* ===================== Favorites ===================== */
+#an_main_Favorites h2{
+    text-align: center;
+    margin-top: 100px;
+}

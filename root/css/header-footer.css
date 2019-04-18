@@ -1,0 +1,173 @@
+/* -------------------- General --------------------------- */
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Sylfaen;
+	background-color: rgba(221, 221, 221, 0.23) !important;
+}
+a{
+	text-decoration: none !important;
+	color: #000;
+	display: block;
+}
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*----------------------header------------------------*/
+#header{
+	background-color: rgb(26,34,39);
+	border-top: solid 3px rgb(252,184,83);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 10000;
+	transition: all 0.5s ease;
+}
+.logo-wrapper{
+	max-width: 70px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 0;
+}
+/*Site name*/
+.siteName{
+	font-size: 1.6em;
+	color: rgb(247,247,247);
+	margin-top: 20px;
+}
+.siteNameColor{
+	color: rgb(252,184,83);
+}
+#main-menu{
+	display: inline-block;
+	float: right;
+}
+#main-menu ul{
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+#main-menu ul li{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 72px;
+}
+#main-menu ul li a {
+	padding: 0 20px;
+	color: rgb(247,247,247);
+	transition: all 0.5s ease;
+}
+#main-menu ul li a:hover{
+	background-color: #036470;
+}
+#main-menu ul li a i{
+	margin-right: 15px;
+	font-size: 24px;
+	color: rgb(125,125,133);
+}
+/* ------- Mobile menu ------- */
+.mobile-menu{
+	padding: 10px;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	left: -5000px;
+	background-color: rgb(26,34,39);
+	z-index: 999;
+	font-size: 1.7em;
+	text-align: center;
+	transition: all .7s ease;
+}
+.mobile-menu ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+.mobile-menu ul li a{
+	color: #fff;
+}
+.mobile-menu ul li a i{
+	float: left;
+	margin-left: 20px;
+}
+.mobile-menu-active{
+	top: 75px;
+	left: 0;
+}
+.hamburger-wrapper{
+	position: absolute;
+	right: 15px;
+	top: 25px;
+	width: 40px;
+	height: 0;
+}
+.hamburger{
+	display: none;
+	position: relative;
+	right: 20px;
+	width: 40px;
+	height: 5px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.hamburger::before{
+	display: block;
+	content:'';
+	width: 40px;
+	height: 5px;
+	position: absolute;
+	top: -10px;
+	background-color: #fff;
+}
+.hamburger::after{
+	display: block;
+	content:'';
+	width: 40px;
+	height: 5px;
+	position: absolute;
+	top: 10px;
+	background-color: #fff;
+}
+/*-------------footer-----------------------------------*/
+#footer{
+	background-color: rgb(26,34,39);
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+#madeby{
+	text-align: center;
+	font-size: 18px;
+	color: rgb(125,125,133);
+	padding: 10px;
+}
+/* ================== Media queries  for header adn footer =====================*/
+@media screen and (max-width: 1325px){
+	#main-menu ul li{
+		/*font-size: 25px;*/
+	}
+	#main-menu ul li a i{
+		margin-right: 5px;
+	}
+}
+@media screen and (max-width: 1010px){
+	#header{
+		height: 75px;
+	}
+	#main-menu{
+		display: none;
+	}
+	.hamburger{
+		display: block;
+	}
+	#footer{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 500px){
+	.logo-wrapper{
+		max-width: 40px;
+	}
+}
